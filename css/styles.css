@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+.bi {
+    color: black !important;
+}
+* {
+    font-family: 'Poppins' !important;
+    input[type="text"],
+    input[type="search"] {
+	outline: none;
+ }
+padding: 0;
+margin: 0;
+}
+.footer {
+    position: fixed;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+body, html {
+    background-image: linear-gradient(#48319D, #E0D9FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(30px);
+    height: 100vh;
+    width: 100vw;
+}
+svg {
+    filter: invert();
+    margin-top: 6px;
+}
+h2, p, a{
+    color: white;
+}
+#locationForm {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+}
+#locationInput {
+    background: none;
+    border: none;
+    color: white;
+}
+#locationInput::placeholder {
+    color: white;
+}
+
+#locationInput::backdrop {
+    display: none;
+}
+#search-button {
+    background: none;
+    border: none;
+}
+
+.search-bar {
+    height: 30px;
+    display: flex;
+}
+.body-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-box {
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#48319D, #e0d9ff77);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(30px);
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    width: 195px;
+    height: 300px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.fade-in {
+    animation: fade 1s forwards;
+}
+.hide {
+    display: none;
+}
