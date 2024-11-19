@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    alert('the api is deprecated, please look at the github repository code instead.')
     document.getElementById('locationForm').addEventListener('submit', function(event) {
         event.preventDefault();
         const location = document.getElementById('locationInput').value;
